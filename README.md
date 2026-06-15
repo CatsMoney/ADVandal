@@ -80,11 +80,7 @@ Based on deep analysis of obfuscated ad delivery chains across the English and R
 
 ## 🎬 Visual Proof
 
-*Placeholder for video/GIF.*
-*Watch the live uBlock Origin logger as ADVandal systematically dismantles ad initialization in real-time.*
-
-<!-- Replace with your actual video/GIF link -->
-<!-- [![ADVandal Live Action](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID) -->
+https://github.com/user-attachments/assets/a67ac483-2597-43ea-b13d-afa11252e5f7
 
 ---
 
