@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=F8A307&center=true&vCenter=true&width=700&lines=%E2%9A%A1+ADVandal;Intercepting+ad+requests...;Monkey-patching+window.b...;Killing+trackers+at+root...;Saving+your+traffic!" alt="Typing SVG" />
   
@@ -48,7 +47,6 @@ graph TD
     F --> H[Telemetry call BLOCKED]
     G --> I((Ad never rendered))
     H --> I
-```
 
 The script runs before any other JavaScript on the page. It creates a “shadow” copy of the ad object, patches every critical method with an empty function, and monitors the creation of new `Image()` instances to prevent sneaky pixel trackers. The result: Yandex’s ad logic executes but **does absolutely nothing**.
 
