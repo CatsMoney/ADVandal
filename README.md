@@ -46,10 +46,10 @@ We have reverse-engineered the obfuscated call stacks of major ad networks (with
 graph TD
     A[Page Load] -->|document-start| B(ADVandal Injects)
     B --> C{Interceptor Active}
-    C -->|Neutralize| D[b.load → noopFunc]
-    C -->|Neutralize| E[b._formatImage → noopFunc]
-    C -->|Neutralize| F[b._sendComplete → noopFunc]
-    C -->|Monitor| G[new Image()]
+    C -->|Neutralize| D[b.load - noopFunc]
+    C -->|Neutralize| E[b.formatImage - noopFunc]
+    C -->|Neutralize| F[b.sendComplete - noopFunc]
+    C -->|Monitor| G[new Image]
     D --> H[Network request TERMINATED]
     E --> H
     F --> I[Telemetry call TERMINATED]
